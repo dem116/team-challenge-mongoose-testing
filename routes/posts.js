@@ -1,12 +1,3 @@
-// Aquí estarán todas las rutas
-/*POST /create: Endpoint para crear una publicación. CHEK
-GET /: Endpoint para traer todas las publicaciones. CHEK
-GET /id/:_id: Endpoint para buscar publicación por id. CHEK
-GET /title/:title: Endpoint para buscar una publicación por su titulo.
-PUT /id/:_id: Endpoint para actualizar una publicación.
-DELETE /id/:_id: Endpoint para eliminar una publicación. CXHEK
-*/
-
 const express = require("express");
 const router = express.Router();
 const Post = require("../models/Post"); 

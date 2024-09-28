@@ -9,7 +9,7 @@ dbConnection();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/posts', routes); 
+app.use('/', routes); 
 
 
 module.exports = app; //exportar para el server aparte
